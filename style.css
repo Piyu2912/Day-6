@@ -1,0 +1,47 @@
+.parent {
+    height: 400px;
+    width: 400px;
+    border: 2px solid red;
+    background-color: lightcyan;
+}
+.child {
+    height: 150px;
+    width: 150px;
+    border: 2px double blue;
+    background-color: lightcoral;
+}
+.parent1 {
+    position: relative;
+    top: 20px;
+    left: 110px;
+}
+.child1 {
+    position: relative;
+    top: 115px;
+    left: 115px;
+}
+.parent2{
+    position: relative;
+    top: 20px;
+    left: 710px;
+}
+.child2{
+    position: absolute;
+    /* top: 50px; */
+    left: 150px;
+}
+.parent3{
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+}
+.parent4{
+    position: sticky;
+    top: 0px;
+}
+.parent5{
+
+}
+.child5{
+
+}
